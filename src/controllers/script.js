@@ -1,6 +1,6 @@
-import Linked from "../models/Linked.js";
+import Linked from "../models/LinkedList.js";
 import Array from "../models/Array.js";
-import Grafica from "../models/Grafica.js";
+import Grafica from "../models/Graph.js";
 
 let arrayList = new Array();
 let linkedList = new Linked();
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Inserción LinkedList',
-            { label: 'LinkedList', data: [tiempo], backgroundColor: '#ff6384' }
+            { label: 'LinkedList', data: [tiempo], backgroundColor: '#C668FF' }
         );
         actualizarGrafica();
         agregarFilaTabla('Inserción', 'LinkedList', tiempo);
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Inserción Array',
-            { label: 'Array', data: [tiempo], backgroundColor: '#36a2eb' }
+            { label: 'Array', data: [tiempo], backgroundColor: '#FF4CFC' }
         );
         actualizarGrafica();
         agregarFilaTabla('Inserción', 'Array', tiempo);
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Búsqueda Array',
-            { label: 'Búsqueda Array', data: [tiempo], backgroundColor: '#FFCE56' }
+            { label: 'Búsqueda Array', data: [tiempo], backgroundColor: '#FF4CFC' }
         );
         actualizarGrafica();
         agregarFilaTabla('Búsqueda', 'Array', tiempo);
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Búsqueda LinkedList',
-            { label: 'Búsqueda LinkedList', data: [tiempo], backgroundColor: '#FF6384' }
+            { label: 'Búsqueda LinkedList', data: [tiempo], backgroundColor: '#C668FF' }
         );
         actualizarGrafica();
         agregarFilaTabla('Búsqueda', 'LinkedList', tiempo);
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Bubble Sort Array',
-            { label: 'Bubble Sort Array', data: [tiempo], backgroundColor: '#FF6384' }
+            { label: 'Bubble Sort Array', data: [tiempo], backgroundColor: '#4CDEFF' }
         );
         actualizarGrafica();
         agregarFilaTabla('Bubble Sort', 'Array', tiempo);
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Merge Sort Array',
-            { label: 'Merge Sort Array', data: [tiempo], backgroundColor: '#36A2EB' }
+            { label: 'Merge Sort Array', data: [tiempo], backgroundColor: '#4CFF82' }
         );
         actualizarGrafica();
         agregarFilaTabla('Merge Sort', 'Array', tiempo);
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Radix Sort Array',
-            { label: 'Radix Sort Array', data: [tiempo], backgroundColor: '#FFCE56' }
+            { label: 'Radix Sort Array', data: [tiempo], backgroundColor: '#FFBB4C' }
         );
         actualizarGrafica();
         agregarFilaTabla('Radix Sort', 'Array', tiempo);
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Bubble Sort LinkedList',
-            { label: 'Bubble Sort LinkedList', data: [tiempo], backgroundColor: '#FF6384' }
+            { label: 'Bubble Sort LinkedList', data: [tiempo], backgroundColor: '#4CDEFF' }
         );
         actualizarGrafica();
         agregarFilaTabla('Bubble Sort', 'LinkedList', tiempo);
@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Merge Sort LinkedList',
-            { label: 'Merge Sort LinkedList', data: [tiempo], backgroundColor: '#36A2EB' }
+            { label: 'Merge Sort LinkedList', data: [tiempo], backgroundColor: '#4CFF82' }
         );
         actualizarGrafica();
         agregarFilaTabla('Merge Sort', 'LinkedList', tiempo);
@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         grafica.setData(
             'Radix Sort LinkedList',
-            { label: 'Radix Sort LinkedList', data: [tiempo], backgroundColor: '#FFCE56' }
+            { label: 'Radix Sort LinkedList', data: [tiempo], backgroundColor: '#FFBB4C' }
         );
         actualizarGrafica();
         agregarFilaTabla('Radix Sort', 'LinkedList', tiempo);

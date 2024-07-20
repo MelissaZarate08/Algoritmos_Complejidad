@@ -22,7 +22,7 @@ export default class Linked {
             }
             current.next = newNode;
         }
-        this.#count++; // Incrementamos el contador de longitud después de agregar un nodo
+        this.#count++; 
     }
 
     linearSearch(searchValue) {
